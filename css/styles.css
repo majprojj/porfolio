@@ -1,0 +1,36 @@
+/* estilos generales*/
+@import url("../css/styles.css");
+/* fuentes y estilos */
+@import url("../css/font.css");
+
+/* variantes colores */
+@import url("../css/colors.css");
+
+/* barra de navegación*/
+@import url(../css/nav-menu.css);
+/* sección info redes sociales*/
+@import url(../css/redessocial.css);
+/* seccion info sobre mí*/
+@import url(../css/sobremi.css);
+
+
+
+
+
+
+menu principal 
+@import url("../css/asidemenu.css");
+
+contenido pagina
+@import url("../css/contenido.css");
+
+efectos 
+@import url("../css/efectos.css");
+ estilos responsive
+@import url("../css/responsive.css");
+
+pagina
+@import url("../css/home.css");
+@import url("../css/sobremí.css");
+@import url("../css/experiencia.css");
+*/

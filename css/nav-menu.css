@@ -1,0 +1,54 @@
+/* MENU  */
+.contenedor-header{
+    background-color: var(--color-primary);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header .logo a{
+    font-family: "Righteous";
+    font-size: 36px;
+    color: var(--color-secundary);
+    text-decoration: none;
+}   
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--color-white);
+    margin: 0 15px;
+    padding: 3px;
+    transition: 0.5s;
+ 
+ 
+
+}
+.contenedor-header header nav ul li a:hover{
+    color: var(--color-secundary);
+}
+
+/* RESPONSI */
+.nav-responsive{
+    background-color: var(--color-secundary);
+    color: var(--color-white);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /*para ocultar en desktop*/
+}
