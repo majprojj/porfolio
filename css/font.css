@@ -1,45 +1,83 @@
-@font-face{
+@font-face {
     font-family: "Righteous";
     src: url(/font/Righteous/Righteous-Regular.ttf) format("truetype");
     font-weight: 400;
     font-style: normal;
 }
-@font-face{
+@font-face {
     font-family: "WorkSans";
-    src:url(/font/Work_Sans/static/WorkSans-Thin.ttf) format("truetype"),
-        url(/font/Work_Sans/static/WorkSans-Light.ttf) format("truetype"),
-        url(/font/Work_Sans/static/WorkSans-Regular.ttf) format("truetype"),
-        url(/font/Work_Sans/static/WorkSans-SemiBold.ttf) format("truetype"),
-        url(/font/Work_Sans/static/WorkSans-Bold.ttf) format("truetype"),
-        url(/font/Work_Sans/static/WorkSans-ExtraBold.ttf) format("truetype");
-    font-weight: 100 300 400 600 700 800;
+    src: url(/font/Work_Sans/static/WorkSans-Thin.ttf) format("truetype");
+    font-weight: 100;
     font-style: normal;
 }
-nav ul li{
+
+@font-face {
+    font-family: "WorkSans";
+    src: url(/font/Work_Sans/static/WorkSans-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url(/font/Work_Sans/static/WorkSans-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url(/font/Work_Sans/static/WorkSans-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url(/font/Work_Sans/static/WorkSans-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url(/font/Work_Sans/static/WorkSans-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+nav ul li {
     font-family: "WorkSans";
     font-weight: 700;
 }
-body{
-  
+
+body {
+    font-family: "WorkSans";
 }
-h1{
+    
+h1 {
     font-size: 42px;
     font-family: "Righteous";
 }
-h2{
-   font-size: 15px;
-   font-weight: normal;
-}
-h3{
 
-}
-h4{
+h2 {
+    font-size: 15px;
+    font-weight: normal;
 
 }
 
-p{
+h3 {
+    font-size: 28px;
+    font-family: "Righteous";
 
 }
-a{
 
+h4 {}
+
+p {
+    font-family: 'WorkSans';
+    font-size: 16px;
+    line-height: 22px;
 }
+
+a {}

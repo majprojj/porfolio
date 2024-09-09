@@ -17,7 +17,7 @@
   /* Configuramos la tipografía para toda la web */
 body {
   font-size: 16px; /* 1rem = 10px*/
-  font-family: "Mifuente", Arial, Helvetica, sans-serif;
+  font-family: "WorkSans";
     min-height: 100vh; /*para que ocupe el 100x100 de la altura vertical de la página*/
     scroll-behavior: smooth; /*por si hay algún ANCLA o movimiento entre anclas para que el scroll se suavizado*/
     text-rendering: optimizeSpeed; /*para que renderice las fuentes un poco más rápidas*/
