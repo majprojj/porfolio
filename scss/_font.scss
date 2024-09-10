@@ -1,0 +1,21 @@
+// Mixin para la carga de fuentes
+@mixin font-face($family, $file, $weight: 400, $style: normal) {
+    @font-face {
+      font-family: $family;
+      src: url("/font/#{$file}.ttf") format("truetype");
+      font-weight: $weight;
+      font-style: $style;
+    }
+  }
+  
+  // Cargar "Righteous"
+  @include font-face("Righteous", "Righteous/Righteous-Regular", 400);
+  
+  // Cargar variantes de "WorkSans"
+  @include font-face("WorkSans", "Work_Sans/static/WorkSans-Thin", 100);
+  @include font-face("WorkSans", "Work_Sans/static/WorkSans-Light", 300);
+  @include font-face("WorkSans", "Work_Sans/static/WorkSans-Regular", 400);
+  @include font-face("WorkSans", "Work_Sans/static/WorkSans-SemiBold", 600);
+  @include font-face("WorkSans", "Work_Sans/static/WorkSans-Bold", 700);
+  @include font-face("WorkSans", "Work_Sans/static/WorkSans-ExtraBold", 800);
+  

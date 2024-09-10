@@ -21,7 +21,8 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.4em;
-  hyphens: auto;
+  -webkit-hyphens: auto;
+          hyphens: auto;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,8 +33,10 @@ img, picture, video, iframe, figure {
   max-width: 100%;
   width: 100%;
   display: block;
-  object-fit: cover;
-  object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 
 /* Evitamos problemas con los SVG */
@@ -81,9 +84,12 @@ form, input, textarea, select, button, label {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
-  hyphens: auto;
+  -webkit-hyphens: auto;
+          hyphens: auto;
   background-color: transparent;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 /* Reseteamos las tablas */
@@ -330,6 +336,7 @@ table, tr, td {
   cursor: pointer;
   background-color: transparent;
   border: 2px solid #fff;
+  width: -moz-fit-content;
   width: fit-content;
   display: block;
   margin: 20px auto;
@@ -686,6 +693,7 @@ table, tr, td {
 .portfolio .galeria .proyecto {
   position: relative;
   max-width: 340px;
+  height: -moz-fit-content;
   height: fit-content;
   margin: 10px;
   cursor: pointer;
@@ -776,6 +784,7 @@ table, tr, td {
   cursor: pointer;
   background-color: rgba(0, 255, 0, 0);
   border: 2px solid #fff;
+  width: -moz-fit-content;
   width: fit-content;
   display: block;
   margin: 20px auto;
@@ -900,5 +909,3 @@ p {
   font-size: 16px;
   line-height: 22px;
 }
-
-/*# sourceMappingURL=styles.css.map */

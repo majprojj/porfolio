@@ -1,0 +1,97 @@
+/* SOBRE MI */
+.sobremi {
+  background-color: $color-primary;
+  color: $color-white;
+  padding: 50px 20px;
+}
+
+.sobremi .contenido-seccion {
+  width: 1100px;
+  margin: auto;
+}
+
+.sobremi h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sobremi .contenido-seccion p {
+  margin-bottom: 20px;
+}
+
+.sobremi .contenido-seccion p span {
+  color: $color-secundary;
+  font-weight: bold;
+}
+
+.sobremi .fila {
+  display: flex;
+}
+
+.sobremi .fila .col {
+  width: 50%;
+}
+
+.sobremi .fila .col h3 {
+  margin-bottom: 25px;
+}
+
+.sobremi .fila .col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sobremi .fila .col ul li {
+  margin: 12px 0;
+}
+
+.sobremi .fila .col ul li strong {
+  display: inline-block;
+  color: $color-secundary;
+  width: 130px;
+}
+
+.sobremi .fila .col ul li span {
+  background-color: $color-secundary;
+  padding: 3px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.sobremi .fila .col .contenedor-intereses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes {
+  width: 100px;
+  height: 100px;
+  background-color: $color-background-tarjetas-icon;
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; // Cambiado para afectar el color de fondo
+}
+
+.sobremi .fila .col .contenedor-intereses .interes:hover {
+  background-color: $color-secundary;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.sobremi button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid $color-white;
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
+}
