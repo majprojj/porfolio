@@ -1,0 +1,32 @@
+nav ul li {
+    font-family: "WorkSans";
+    font-weight: 700;
+}
+body {
+ padding: 0;
+ margin: 0;
+} 
+
+h1 {
+    font-size: 42px;
+    font-family: "Righteous";
+}
+h2 {
+    font-size: 15px;
+    font-weight: normal;
+
+}
+h3 {
+    font-size: 28px;
+    font-family: "Righteous";
+
+}
+h4 {
+    font-size: 20px;
+}
+p {
+    font-family: 'WorkSans';
+    font-size: 16px;
+    line-height: 22px;
+}
+a {}

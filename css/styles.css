@@ -14,3 +14,13 @@
 @import url(../css/sobremi.css);
 /* sección skill*/
 @import url(../css/skills.css);
+/* sección curriculum*/
+@import url(../css/curriculum.css);
+/* sección galery */
+@import url(../css/galery.css);
+/* sección contacto */
+@import url(../css/contact.css);
+/* sección footer */
+@import url(../css/footer.css);
+/* css general */
+@import url(../css/general.css);
