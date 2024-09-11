@@ -3,95 +3,126 @@
   background-color: $color-primary;
   color: $color-white;
   padding: 50px 20px;
-}
 
-.sobremi .contenido-seccion {
-  width: 1100px;
-  margin: auto;
-}
+  .contenido-seccion {
+    width: 1100px;
+    margin: auto;
 
-.sobremi h2 {
-  font-size: 48px;
-  font-family: "Righteous";
-  text-align: center;
-  padding: 20px 0;
-}
+    h2 {
+      font-size: 48px;
+      font-family: "Righteous";
+      text-align: center;
+      padding: 20px 0px 50px 0px;
+    }
 
-.sobremi .contenido-seccion p {
-  margin-bottom: 20px;
-}
+    p {
+      margin-bottom: 20px;
 
-.sobremi .contenido-seccion p span {
-  color: $color-secundary;
-  font-weight: bold;
-}
+      span {
+        color: $color-secundary;
+        font-weight: bold;
+      }
+    }
+  }
 
-.sobremi .fila {
-  display: flex;
-}
+  .fila {
+    display: flex; /* Esto debería funcionar para crear un diseño en dos columnas */
 
-.sobremi .fila .col {
-  width: 50%;
-}
+    .col {
+      width: 50%;
+      padding-top: 50px;
 
-.sobremi .fila .col h3 {
-  margin-bottom: 25px;
-}
+      h3 {
+        margin-bottom: 25px;
+      }
 
-.sobremi .fila .col ul {
-  list-style: none;
-  padding: 0;
-}
+      ul {
+        list-style: none;
+        padding: 0;
 
-.sobremi .fila .col ul li {
-  margin: 12px 0;
-}
+        li {
+          margin: 12px 0;
 
-.sobremi .fila .col ul li strong {
-  display: inline-block;
-  color: $color-secundary;
-  width: 130px;
-}
+          strong {
+            display: block;
+            color: $color-secundary;
+            width: 130px;
+            font-family: 'WorkSans';
+            font-size: 16px;
+          }
 
-.sobremi .fila .col ul li span {
-  background-color: $color-secundary;
-  padding: 3px;
-  font-weight: bold;
-  border-radius: 5px;
-}
+          span {
+            background-color: $color-secundary;
+            padding: 3px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase !important;
+          }
+        }
+      }
 
-.sobremi .fila .col .contenedor-intereses {
-  display: flex;
-  flex-wrap: wrap;
-}
+      .contenedor-intereses {
+        display: flex;
+        flex-wrap: wrap;
 
-.sobremi .fila .col .contenedor-intereses .interes {
-  width: 100px;
-  height: 100px;
-  background-color: $color-background-tarjetas-icon;
-  border-radius: 10px;
-  margin: 0 15px 15px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s; // Cambiado para afectar el color de fondo
-}
+        .interes {
+          width: 100px;
+          height: 100px;
+          background-color: $color-background-tarjetas-icon;
+          border-radius: 10px;
+          margin: 0 15px 15px 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          transition: background-color 0.3s;
 
-.sobremi .fila .col .contenedor-intereses .interes:hover {
-  background-color: $color-secundary;
-}
+          &:hover {
+            background-color: $color-secundary;
+          }
 
-.sobremi .fila .col .contenedor-intereses .interes i {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
+          i {
+            font-size: 30px;
+            margin-bottom: 10px;
+         
+          }
 
-.sobremi button {
-  cursor: pointer;
-  background-color: transparent;
-  border: 2px solid $color-white;
-  width: fit-content;
-  display: block;
-  margin: 20px auto;
+          span {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    margin-top: 50px !important;
+    cursor: pointer;
+    background-color: $color-background-transparent;
+    border: 2px solid $color-white;
+    width: fit-content;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: $color-white;
+    position: relative;
+    z-index: 10;
+      i {
+        padding-left: 10px;
+      }
+  }
+  button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: $color-secundary; 
+    z-index: -1;
+    transition: 1s;
+  }
+  button:hover .overlay {
+    width: 100%;
+  }
 }

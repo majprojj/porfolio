@@ -14,7 +14,7 @@
     font-size: 48px;
     font-family: "Righteous";
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0 70px 0;
   }
   
   .skills .fila {
@@ -76,7 +76,7 @@
       width: 0%;
     }
     100% {
-      width: 75%;
+      width: 70%;
     }
   }
   
@@ -90,21 +90,21 @@
       width: 0%;
     }
     100% {
-      width: 89%;
+      width: 90%;
     }
   }
   
-  .skills .skill .photoshop {
+  .skills .skill .bootstrap {
     width: 0%;
-    animation: photoshop 2s forwards;
+    animation: bootstrap 2s forwards;
   }
   
-  @keyframes photoshop {
+  @keyframes bootstrap{
     0% {
       width: 0%;
     }
     100% {
-      width: 95%;
+      width: 85%;
     }
   }
   
@@ -122,12 +122,12 @@
     }
   }
   
-  .skills .skill .drupal {
+  .skills .skill .prestashop{
     width: 0%;
-    animation: drupal 2s forwards;
+    animation: prestashop 2s forwards;
   }
   
-  @keyframes drupal {
+  @keyframes prestashop {
     0% {
       width: 0%;
     }
@@ -160,7 +160,7 @@
       width: 0%;
     }
     100% {
-      width: 70%;
+      width: 85%;
     }
   }
   
@@ -174,7 +174,7 @@
       width: 0%;
     }
     100% {
-      width: 99%;
+      width: 90%;
     }
   }
   
@@ -188,16 +188,16 @@
       width: 0%;
     }
     100% {
-      width: 65%;
+      width: 96%;
     }
   }
   
-  .skills .skill .proyect {
+  .skills .skill .adaptacion {
     width: 0%;
-    animation: proyect 2s forwards;
+    animation: adaptacion 2s forwards;
   }
   
-  @keyframes proyect {
+  @keyframes adaptacion {
     0% {
       width: 0%;
     }

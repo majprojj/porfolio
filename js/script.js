@@ -39,3 +39,30 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+document.addEventListener('DOMContentLoaded', function() {
+    document.body.addEventListener('click', function(event) {
+      var target = event.target;
+  
+      // Verifica si el clic fue dentro de un elemento con la clase 'proyecto'
+      while (target && !target.classList.contains('proyecto')) {
+        target = target.parentElement;
+      }
+  
+      if (target) {
+        var link = target.querySelector('.overlay a');
+        if (link) {
+          var href = link.getAttribute('href');
+          var targetAttr = link.getAttribute('target');
+  
+          if (targetAttr === '_blank') {
+            window.open(href, '_blank');
+          } else {
+            window.location.href = href;
+          }
+        }
+      }
+    });
+  });
+  
+  
+  

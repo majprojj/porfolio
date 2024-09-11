@@ -3,18 +3,18 @@ nav ul li {
     font-weight: 700;
   }
   
-  body {
-    // Aquí puedes agregar estilos generales para el body si es necesario
-  }
-  
+ 
   h1 {
     font-size: 42px;
     font-family: "Righteous";
+  
   }
   
   h2 {
     font-size: 15px;
     font-weight: normal;
+    font-family: "Righteous";
+ 
   }
   
   h3 {
@@ -23,7 +23,8 @@ nav ul li {
   }
   
   h4 {
-    font-size: 20px;
+    font-family: "Righteous";
+    font-size: 18px !important;
   }
   
   p {
@@ -34,5 +35,13 @@ nav ul li {
   
   a {
     // Aquí puedes agregar estilos generales para los enlaces si es necesario
+    font-family: 'WorkSans';
+    color: $color-white;
+    font-size: 16px;
+
   }
+  span{
+    font-family: 'WorkSans';
+  }
+  
   
