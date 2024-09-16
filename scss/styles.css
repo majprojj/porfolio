@@ -909,9 +909,22 @@ span {
 }
 
 /* RESPONSI */
+/* RESPONSIVE */
+.nav-responsive {
+  background-color: #1CB698;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
 /* Dispositivos tablet */
 @media screen and (max-width: 1024px) {
   /* Navegación */
+  .contenedor-header header ul {
+    display: none;
+  }
   nav {
     display: block;
   }
