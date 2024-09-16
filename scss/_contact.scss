@@ -59,10 +59,11 @@
 
       ul {
         list-style: none;
+      
 
         li {
           margin-bottom: 20px;
-
+          display: flex;
           i {
             color: $color-secundary;
             display: inline-block;

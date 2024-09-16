@@ -781,6 +781,7 @@ table, tr, td {
 }
 .contacto .col .info ul li {
   margin-bottom: 20px;
+  display: flex;
 }
 .contacto .col .info ul li i {
   color: #1CB698;
@@ -882,6 +883,7 @@ h2 {
 
 h3 {
   font-size: 28px;
+  line-height: 28px;
   font-family: "Righteous";
 }
 
@@ -904,6 +906,107 @@ a {
 
 span {
   font-family: "WorkSans";
+}
+
+/* RESPONSI */
+/* Dispositivos tablet */
+@media screen and (max-width: 1024px) {
+  /* Navegación */
+  nav {
+    display: block;
+  }
+  nav.responsive {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75px; /* Añadir "px" para que el valor funcione correctamente */
+    background-color: #252A2E;
+    width: 180px;
+  }
+  nav.responsive ul {
+    display: block !important;
+  }
+  nav.responsive ul li {
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+  }
+  .nav-responsive {
+    display: block;
+  }
+  /* Sobre mí */
+  .sobremi .fila {
+    display: flex;
+  }
+  .sobremi .contenido-seccion {
+    width: 100%;
+    margin: auto;
+  }
+  /* Skills */
+  .skills .fila {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .fila .col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  /* Currículum */
+  .curriculum .contenido-seccion {
+    width: 100%;
+    margin: auto;
+  }
+  .curriculum .fila {
+    display: flex;
+    flex-direction: column;
+  }
+  .curriculum .fila .col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .curriculum .fila .izq {
+    border-right: 2px solid #1CB698;
+    margin-right: 20px;
+  }
+  .curriculum .fila .der {
+    margin-right: 20px;
+  }
+  /* Contacto */
+  .contacto .contenido-seccion {
+    width: 100%;
+    margin: auto;
+  }
+  .contacto .fila {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto .fila .col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contacto .fila .col iframe {
+    width: 100%;
+    height: 560px;
+  }
+}
+/* Dispositivos móviles */
+@media screen and (max-width: 767px) {
+  /* Sobre mí */
+  .sobremi .fila {
+    display: block;
+  }
+  .sobremi .contenido-seccion {
+    width: 100%;
+    margin: auto;
+  }
+  /* Contenedor de intereses */
+  .contenedor-intereses {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 10px; /* Espacio entre los elementos */
+  }
+  .contenedor-intereses .interes {
+    padding: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
