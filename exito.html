@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Diseño y desarrollo web"> <!-- Especifica el título que aparecerá al compartir el enlace.-->
+    <meta property="og:description" content="Portafolios Marco Jiménez">  <!-- Proporciona una descripción breve para la vista previa.-->
+    <meta property="og:image" content="https://codigo.portafolios.marcojimenez.es/img/fondo.jpg"> <!-- Define la URL de la imagen destacada.-->
+    <meta property="og:url" content="https://codigo.portafolios.marcojimenez.es">  <!-- Enlace de tu página web.-->
+    <meta property="og:type" content="website"> <!-- Indica el tipo de contenido (por ejemplo, website, article, etc.).-->
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="font/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="scss/styles.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="https://codigo.portafolios.marcojimenez.es/">Marco Jiménez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="https://codigo.portafolios.marcojimenez.es/#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="https://codigo.portafolios.marcojimenez.es/#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="https://codigo.portafolios.marcojimenez.es/#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="https://codigo.portafolios.marcojimenez.es/#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="https://codigo.portafolios.marcojimenez.es/#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="https://codigo.portafolios.marcojimenez.es/#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </header>
+    </div>
+
+    <!-- SECCION EXITO -->
+    <section id="inicio2" class="inicio2">
+        <div class="contenido-banner2">
+            
+            <h1>Muchas gracias por contactar</h1>
+            <H2>Me pondre en contacto contigo lo antes posible</H2>
+            <span>¿Conectamos?</span>
+
+            <div class="redes">
+                <a href="https://github.com/majprojj" target="_blank"><i class=" fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/majweb/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.marcojimenez.es" target="_blank"><i class="fa-solid fa-globe"></i></a>
+                <a href="mailto:majprogrammer@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="tel:+34 641 548 813"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
